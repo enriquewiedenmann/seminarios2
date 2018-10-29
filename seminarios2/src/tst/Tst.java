@@ -16,7 +16,7 @@ public class Tst {
 		ud.setEmail("enrique.wiedenmann@gmail.com");
 		ud.setPassword("donboso");
 		ud.setLoggedSession("SessionID");
-		//au.crearUsuario(ud);
+		au.crearUsuario(ud);
 		
 		au.login(ud);
 		System.out.println(au.isLoggedIn(ud));
